@@ -1,7 +1,7 @@
 import json
 import requests
 
-
+#1
 with open('lesson14/students.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
     
@@ -10,7 +10,7 @@ with open('lesson14/students.json', 'r', encoding='utf-8') as f:
 
 # ---------------------------------------------------------------------
 
-
+#2
 API_KEY = 'ab14e6e426e81cb76e331b6374391cfd'
 CITY = 'Tashkent'
 url = f'http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric'
